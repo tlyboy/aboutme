@@ -8,13 +8,14 @@
   font-size: 20px;
   color: #fff;
   position: relative;
+  overflow: hidden;
 }
 
 .background {
   width: 200%;
   height: 10px;
   background-color: rgba(255, 255, 255, 0.1);
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 50%;
   left: 50%;
