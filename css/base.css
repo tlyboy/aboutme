@@ -13,3 +13,12 @@ body {
 img {
   display: block;
 }
+
+a {
+  color: inherit;
+  transition: all 0.3s;
+}
+
+a:hover {
+  background-color: #3498db;
+}
