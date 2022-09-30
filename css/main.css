@@ -24,7 +24,7 @@
 .avatar {
   width: 200px;
   border-radius: 50%;
-  box-shadow: 1px 1px 3px 1px rgba(26, 26, 26, 0.3);
+  box-shadow: 1px 1px 3px 1px rgba(46, 204, 113, 0.5);
   transition: all 0.3s;
 }
 
@@ -34,5 +34,5 @@
 
 .content {
   padding: 20px;
-  text-shadow: 1px 1px 3px rgba(26, 26, 26, 0.3);
+  text-shadow: 1px 1px 3px rgba(46, 204, 113, 0.5);
 }
