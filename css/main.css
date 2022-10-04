@@ -5,15 +5,13 @@
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(45deg, rgba(231, 76, 60, 0.5), rgba(52, 152, 219, 0.5));
-  font-size: 20px;
   color: #fff;
-  position: relative;
   overflow: hidden;
 }
 
-.background {
-  width: 200%;
-  height: 10px;
+.bar {
+  width: 150vmax;
+  height: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
   position: absolute;
   top: 50%;
@@ -21,18 +19,27 @@
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.avatar {
-  width: 200px;
+.header img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   box-shadow: 1px 1px 3px 1px rgba(52, 152, 219, 0.5);
+  vertical-align: middle;
+}
+
+.main {
+  padding: 1rem;
+  text-shadow: 1px 1px 3px rgba(52, 152, 219, 0.5);
+}
+
+.main a {
+  text-decoration: none;
+  color: inherit;
   transition: all 0.3s;
 }
 
-.avatar:hover {
-  transform: scale(1.1);
-}
-
-.content {
-  padding: 20px;
-  text-shadow: 1px 1px 3px rgba(52, 152, 219, 0.5);
+.main a:hover {
+  background-color: #3498db;
 }
