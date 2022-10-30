@@ -4,7 +4,11 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, rgba(231, 76, 60, 0.5), rgba(52, 152, 219, 0.5));
+  background: linear-gradient(
+    45deg,
+    rgba(231, 76, 60, 0.5),
+    rgba(52, 152, 219, 0.5)
+  );
   color: #fff;
   overflow: hidden;
 }
