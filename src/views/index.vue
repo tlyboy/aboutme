@@ -7,7 +7,7 @@
     <main class="main">
       <h1>Hello.</h1>
       <h2>My name is {{ user.name || user.login }}.</h2>
-      <p>I am a front-end developer and welcome to my website.</p>
+      <p v-if="user.bio">{{ user.bio }}</p>
       <p>
         GitHub:
         <a :href="user.html_url" target="_blank" rel="noopener noreferrer">{{
