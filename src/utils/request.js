@@ -1,5 +1,5 @@
 import axios from 'axios'
-import NProgress from 'nprogress'
+import nProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
 const request = axios.create({
@@ -14,7 +14,7 @@ request.interceptors.request.use(
   function (config) {
     // 在发送请求之前做些什么
 
-    NProgress.start()
+    nProgress.start()
 
     return config
   },
@@ -30,7 +30,7 @@ request.interceptors.response.use(
     // 2xx 范围内的状态码都会触发该函数。
     // 对响应数据做点什么
 
-    NProgress.done()
+    nProgress.done()
 
     return response.data
   },
